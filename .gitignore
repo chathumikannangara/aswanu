@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.log
+*.err
+aswanu.db-shm
+aswanu.db-wal
+.DS_Store

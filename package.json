@@ -1,0 +1,26 @@
+{
+  "name": "aswanu",
+  "version": "1.0.0",
+  "description": "Aswanu - Agricultural Multi-Producer Aggregation & Procurement Coordination Platform (Sri Lanka Prototype)",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "vite",
+    "build": "vite build",
+    "test": "node tests/acceptance-runner.js",
+    "seed": "node server/seed-runner.js"
+  },
+  "dependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "lucide-react": "^1.61.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}
